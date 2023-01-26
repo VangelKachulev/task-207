@@ -29,7 +29,7 @@ html {
 
 .card {
     border: 10px solid $grey-light;
-    box-sizing: border-box;
+    box-sizing: content-box;
     width: 500px;
 }
 
@@ -39,5 +39,5 @@ html {
 }
 
 .card .content {
-  padding: 30px 25px;
+    padding: 30px 25px;
 }
